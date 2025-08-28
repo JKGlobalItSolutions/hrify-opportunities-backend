@@ -1,0 +1,25 @@
+{
+  "name": "hrify_opportunities",
+  "version": "1.0.0",
+  "description": "Job applying plattform",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.3",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
